@@ -1,3 +1,9 @@
+git-buildpackage (0.8.18kern1) xenial; urgency=medium
+
+  * build for KERN
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 18 Dec 2017 10:05:30 +0200
+
 git-buildpackage (0.8.18) unstable; urgency=medium
 
   [ Guido Günther ]

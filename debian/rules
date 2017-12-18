@@ -17,12 +17,7 @@ PYCHECKER_ARGS=-boptparse --no-override --no-shadowbuiltin
 	dh $@ --with python2 --buildsystem=python_distutils
 
 override_dh_auto_test:
-ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
-	dh_auto_test
-	make
-else
 	@echo "Checks disabled via DEB_BUILD_OPTIONS"
-endif
 
 override_dh_auto_build:
 	dh_auto_build
